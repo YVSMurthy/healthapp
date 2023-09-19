@@ -1,0 +1,166 @@
+body {
+    background-image: url('./Images/background2.png');
+    background-size: 100vw 100vh;
+}
+  
+#Register {
+    background-color: rgb(240, 240, 240,0.80);
+    border-radius: 6px;
+    box-shadow: 0 3px 10px;
+    display: flex;
+    width: 70vw;
+    height: 85vh;
+    margin-left: 14.6vw;
+    margin-top: 7.5vh;
+}
+  
+#signup {
+    width: 50%;
+    padding: 20px 30px;
+    
+}
+
+#siteName {
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.input-label {
+    display: block;
+    margin-bottom: 5px;
+    margin-left: 15px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.input-field {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#AgeGender {
+    width: 31vw;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+
+
+#ageContainer {
+    flex: 1; 
+    margin-left: 2px;
+}
+
+#genderLabel {
+    margin-left: 5px;
+}
+
+#genderContainer {
+    flex: 2;
+    margin-left: 9.2vw;
+}
+
+#age {
+    width: 9vw;
+    margin-left: 12px;
+}
+
+select {
+    width: 170px;
+    background-color: #ffffff;
+    color: #333;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.date-of-birth {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#submit {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid #007bff;
+    width: 12vw;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+#submit:hover {
+    font-size: 15px;
+    transition: all 0.25s ease;
+    background-color: #cde0ff;
+    border: 2px solid #007bff;
+    color: #007bff;
+}
+
+.right {
+    width: 48%;
+    padding-top: 3.6vh;
+}
+  
+.slide-container {
+    position: relative;
+    max-width: 35vw;
+    margin: 0 auto;
+    background-color: aquamarine;
+}  
+
+.slider {
+    width: 29vw;
+    height: 58vh;
+    margin-top: 95px;
+    margin-left: 0.5vw;
+    display: flex;
+    overflow-x: hidden;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    border-radius: 10px;
+}
+
+.slider img {
+    width: 29vw;
+    height: 58vh;
+    scroll-snap-align: start;
+}
+
+.nav-buttons {
+    width: 2vw;
+    display: flex;
+    column-gap: 0.5vw;
+    position: absolute;
+    bottom: 21vh;
+    margin-left: 11.5vw;
+    z-index: 1;
+}
+
+.nav-buttons a {
+    width: 2vw;
+    height: 0.6vh;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    opacity: 0.70;
+    transition: opacity ease 250ms;
+    padding: 0 5px;
+
+    color: transparent;
+    text-decoration: none;
+}
+
+.nav-buttons a:hover {
+    opacity: 1;
+    background-color: white;
+}
